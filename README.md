@@ -8,8 +8,8 @@ Modify an existing React app to create and display lists and add and delete item
 - Use the Node framework
 - Implement testing
 #ToDo
-[] Create a React app
-[] Download source files
+[X] Create a React app
+[X] Download source files
 [] Add create new list
 [] Add new items to list
 [] Add mark items by changing their color
