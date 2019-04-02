@@ -21,6 +21,8 @@ class App extends Component {
    */
   handleAddList(s) {
       // Implement this function!
+
+      // add list name to state.lists
       if (this.state.lists === undefined) {
         this.setState({ lists: s })
       }
@@ -28,17 +30,10 @@ class App extends Component {
         this.setState({ lists: [...this.state.lists, s] });
       }
 
-      /*
-      if (isEmpty(this.state.items)) {
-        this.setState({ items: {[s]: []} });
-      }
-      else {
-
-      }
-      this.setState({ items: ({[s]: []}, this.state.items) });
-       temp = { [s]: [] };*/
-       // add s as prop to this.state.items
-
+      // add list arrays to state.items
+      let temp = this.state.items;
+      temp[s] = [];
+      this.setState({ items: temp });
   }
 
   /**
@@ -51,6 +46,7 @@ class App extends Component {
    */
   handleAddItem(s) {
       // Implement this function!
+      console.log(s);
   }
 
   /**

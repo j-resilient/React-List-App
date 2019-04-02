@@ -10,7 +10,7 @@ Modify an existing React app to create and display lists and add and delete item
 #ToDo
 [X] Create a React app
 [X] Download source files
-[] Add create new list
+[X] Add ability to create lists
 [] Add new items to list
 [] Add mark items by changing their color
 [] Implement tests
