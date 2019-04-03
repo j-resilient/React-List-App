@@ -49,7 +49,6 @@ class App extends Component {
       let temp = this.state.items;
       temp[s.id].push(s.item);
       this.setState({ items: temp });
-      console.log(this.state.items[s.id]);
   }
 
   /**

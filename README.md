@@ -1,19 +1,17 @@
 # React-List-App
 Modify an existing React app to create and display lists and add and delete items from lists. The fifth homework assignment from 'Programming for the Web with Javascript'.
 # Date Started: 3/31/2019
-# Date Finished: TBD
+# Date Finished: 4/3/2019
 # Learning Objectives
 - Modify an existing React App
 - Create six components
 - Use the Node framework
-- Implement testing
 #ToDo
 [X] Create a React app
 [X] Download source files
 [X] Add ability to create lists
 [X] Add new items to list
-[] Add mark items by changing their color
-[] Implement tests
+[X] Add mark items by changing their color
 #Functionality
 User should be able to:
 - Create a new list
