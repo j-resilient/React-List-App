@@ -12,12 +12,13 @@ class ListItem extends Component {
     }
 
   render() {
-    var item = this.props.item;
-    var name = item.name;
+    // there is no this.props.item.name???
+    // var item = this.props.item;
+    // var name = item.name;
 
     return (
 	    <span onClick={this.handleClick.bind(this)} style={{color: this.state.color}}>
-        <strong>{name}</strong>
+        <strong>{this.props.item}</strong>
       </span>
     );
 
@@ -25,4 +26,3 @@ class ListItem extends Component {
 
 }
 export default ListItem;
-

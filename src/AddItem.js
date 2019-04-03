@@ -13,8 +13,8 @@ class AddItem extends Component {
       e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
 
       // Implement the rest of this function here!
-      this.setState({ newItem: e.target[0].value });
-      this.props.addItem(this.state);
+      this.setState({ newItem: {id: this.props.idName, item: e.target[0].value} });
+      this.props.addItem({id: this.props.idName, item: e.target[0].value});
       e.target.reset();
   }
 

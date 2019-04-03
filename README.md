@@ -11,7 +11,7 @@ Modify an existing React app to create and display lists and add and delete item
 [X] Create a React app
 [X] Download source files
 [X] Add ability to create lists
-[] Add new items to list
+[X] Add new items to list
 [] Add mark items by changing their color
 [] Implement tests
 #Functionality
