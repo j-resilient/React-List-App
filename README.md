@@ -7,11 +7,11 @@ Modify an existing React app to create and display lists and add and delete item
 - Create six components
 - Use the Node framework
 ## ToDo
--[X] Create a React app
--[X] Download source files
--[X] Add ability to create lists
-[X] Add new items to list
-[X] Add mark items by changing their color
+- [X] Create a React app
+- [X] Download source files
+- [X] Add ability to create lists
+- [X] Add new items to list
+- [X] Add mark items by changing their color
 ## Functionality
 User should be able to:
 - Create a new list
